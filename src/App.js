@@ -23,7 +23,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={ process.env.PUBLIC_URL }>
       <ProviderFoods>
         <ProviderDrinks>
 
